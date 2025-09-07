@@ -1,5 +1,6 @@
 <!doctype html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/vite.svg" />
@@ -7,306 +8,352 @@
   <title>SOŠ Digital</title>
   <!-- Make sure Bootstrap CSS + JS is included in index.html -->
 </head>
+
 <body>
-    <script type="module" src="/src/main.js"></script>
-    <div class="container-fluid">
+  <script type="module" src="/src/main.js"></script>
+  <div class="container-fluid">
 
-  <!-- NAVBAR -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border">
-    <div class="container">
-      <img src="images/logo.svg" alt="" class="img-fluid" width="20" height="20">
-      <a class="navbar-brand text-black" href="#">SOŠ Digital</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ms-auto">
-          <li class="nav-item"><a class="nav-link text-black" href="#">Domů</a></li>
-          <li class="nav-item text-secondary"><a class="nav-link " href="#obory">Studijní obory</a></li>
-          <li class="nav-item text-secondary"><a class="nav-link " href="#novinky">Novinky</a></li>
-          <li class="nav-item text-secondary"><a class="nav-link" href="#udalosti">Události</a></li>
-          <li class="nav-item"><a href="#kontakt" class="btn btn-primary btn-lg ms-3 text-white py-1">Přihláška</a></li>
-        </ul>
-      </div>
-    </div>
-  </nav>
-
-  <!-- HERO -->
-  <section id="skola" class="bg-white py-5 mt-5">
-    <div class="container">
-      <div class="row align-items-stretch">
-        <div class="col-md-6 d-flex flex-column justify-content-center">
-          <p><span class="badge bg-warning text-black">Fiktivní ukázkový Web</span></p>
-          <h1>Střední odborná škola Digital</h1>
-          <p>Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jsme vaše jednička!</p>
-
-          <div class="d-flex">
-            <button class="btn btn-primary me-2 mb-4">Studijní Obory</button>
-            <button class="btn btn-outline-secondary mb-4">Nejčastější dotazy</button>
-          </div>
-
-          <div class="row text-center">
-            <div class="col-4"><h2>45 000+</h2><p>Absolventů</p></div>
-            <div class="col-4"><h2>150</h2><p>Let zkušeností</p></div>
-            <div class="col-4"><h2>99%</h2><p>Uplatnění</p></div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <img src="./hero-image.webp" class="img-fluid rounded w-100 h-100" alt="">
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border">
+      <div class="container">
+        <img src="images/logo.svg" alt="" class="img-fluid" width="20" height="20">
+        <a class="navbar-brand text-black" href="#">SOŠ Digital</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link text-black" href="#">Domů</a></li>
+            <li class="nav-item text-secondary"><a class="nav-link " href="#obory">Studijní obory</a></li>
+            <li class="nav-item text-secondary"><a class="nav-link " href="#novinky">Novinky</a></li>
+            <li class="nav-item text-secondary"><a class="nav-link" href="#udalosti">Události</a></li>
+            <li class="nav-item"><a href="#kontakt" class="btn btn-primary btn-lg ms-3 text-white py-1">Přihláška</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
-  </section>
+    </nav>
 
-  <!-- OBORY -->
-  <section id="obory" class="bg-light py-5">
-    <div class="container">
-      <h2 class="text-lg-start text-black mb-4">Studijní obory</h2>
-      <div class="row text-black">
-        <div class="col-md-4 mb-3">
-          <div class="p-3 bg-white rounded border">
-            <h3>Fotografie</h3>
-            <p>Ateliér, práce se světlem, postprodukce.</p>
+    <!-- HERO -->
+    <section id="skola" class="bg-white py-5 mt-5">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-md-6 d-flex flex-column justify-content-center">
+            <p><span class="badge bg-orange text-white">Fiktivní ukázkový Web</span></p>
+            <h1>Střední odborná škola Digital</h1>
+            <p>Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jsme vaše jednička!</p>
+
+            <div class="d-flex">
+              <button class="btn btn-primary me-2 mb-4">Studijní Obory</button>
+              <button class="btn btn-outline-secondary mb-4">Nejčastější dotazy</button>
+            </div>
+
+            <div class="row text-center">
+              <div class="col-4">
+                <h2>45 000+</h2>
+                <p>Absolventů</p>
+              </div>
+              <div class="col-4">
+                <h2>150</h2>
+                <p>Let zkušeností</p>
+              </div>
+              <div class="col-4">
+                <h2>99%</h2>
+                <p>Uplatnění</p>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="p-3 bg-white rounded border">
-            <h3>Video</h3>
-            <p>Střih, color grading, zvuk, produkce.</p>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="p-3 bg-white rounded border">
-            <h3>Audio</h3>
-            <p>Podcasty, hudební produkce, mix a mastering.</p>
+          <div class="col-md-6">
+            <img src="./hero-image.webp" class="img-fluid rounded w-100 h-100" alt="">
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- NOVINKY -->
-  <section id="novinky" class="bg-white py-5">
-    <div class="container">
-      <div class="row mb-3">
-        <div class="col-8">
-          <h2 class="text-lg-start text-black">Novinky</h2>
-        </div>
-        <div class="col-4 d-flex align-items-baseline">
-          <input type="text" class="form-control me-2" placeholder="Your Name">
-          <button class="btn btn-outline-secondary">Vyhledat</button>
-        </div>
-      </div>
-      <div class="row text-black">
-        <div class="col-md-4 mb-3 position-relative">
-          <div class="p-3 bg-white rounded border h-100">
-            <img src="./hero-image.webp" class="img-fluid rounded mb-4" alt="">
-            <h3>Den otevřených dveří – říjen</h3>
-            <p>Zveme uchazeče a rodiče na prohlídku školy, laboratoří a ateliérů.</p>
-            <div class="row mt-5">
-              <div class="col-6 text-start "><span class="badge bg-warning">Aktualita</span></div>
-              <div class="col-6 text-end text-decoration-underline"><a href="https://google.com">Číst více</a></div>
+    <!-- OBORY -->
+    <section id="obory" class="bg-light py-5">
+      <div class="container">
+        <h2 class="text-lg-start text-black mb-4">Studijní obory</h2>
+        <div class="row text-black">
+          <div class="col-md-4 mb-3">
+            <div class="p-3 bg-white rounded border">
+              <h3>Fotografie</h3>
+              <p>Ateliér, práce se světlem, postprodukce.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="p-3 bg-white rounded border">
+              <h3>Video</h3>
+              <p>Střih, color grading, zvuk, produkce.</p>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="p-3 bg-white rounded border">
+              <h3>Audio</h3>
+              <p>Podcasty, hudební produkce, mix a mastering.</p>
             </div>
           </div>
         </div>
-        <div class="col-md-4 mb-3">
-          <div class="p-3 bg-white rounded border h-100">
-            <img src="./hero-image.webp" class="img-fluid rounded mb-4" alt="">
-            <h3>Úspěch v soutěži WebExpo Student</h3>
-            <p>Náš tým obsadil 2. místo s projektem chytré kampaně pro neziskovku.</p>
+      </div>
+    </section>
+
+    <!-- NOVINKY -->
+    <section id="novinky" class="bg-white py-5">
+      <div class="container">
+        <div class="row mb-3">
+          <div class="col-8">
+            <h2 class="text-lg-start text-black">Novinky</h2>
+          </div>
+          <div class="col-4 d-flex align-items-baseline">
+            <input type="text" class="form-control me-2" placeholder="Your Name">
+            <button class="btn btn-outline-secondary">Vyhledat</button>
+          </div>
+        </div>
+        <div class="row text-black">
+          <div class="col-md-4 mb-3 position-relative">
+            <div class="p-3 bg-white rounded border h-100">
+              <img src="images/novinky-dod.webp" class="img-fluid rounded mb-4" alt="">
+              <h3>Den otevřených dveří – říjen</h3>
+              <p>Zveme uchazeče a rodiče na prohlídku školy, laboratoří a ateliérů.</p>
+              <div class="row mt-5">
+                <div class="col-6 text-start "><span class="badge bg-orange">Aktualita</span></div>
+                <div class="col-6 text-end text-decoration-underline"><a href="https://google.com">Číst více</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="p-3 bg-white rounded border h-100">
+              <img src="images/novinky-iot.webp" class="img-fluid rounded mb-4" alt="">
+              <h3>Úspěch v soutěži WebExpo Student</h3>
+              <p>Náš tým obsadil 2. místo s projektem chytré kampaně pro neziskovku.</p>
+              <div class="row">
+                <div class="col-6 text-start"><span class="badge bg-success">Úspěch</span></div>
+                <div class="col-6 text-end text-decoration-underline"><a href="https://google.com">Číst více</a></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-3">
+            <div class="p-3 bg-white rounded border h-100">
+              <img src="images/novinky-vr.webp" class="img-fluid rounded mb-4" alt="">
+              <h3>Nové VR studio</h3>
+              <p>Rozšiřujeme multimediální výuku o virtuální realitu a 3D scanning.</p>
+              <div class="row mt-5">
+                <div class="col-6 text-start"><span class="badge bg-info text-black">Vybavení</span></div>
+                <div class="col-6 text-end text-decoration-underline"><a href="https://google.com">Číst více</a></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <nav aria-label="Page navigation">
+          <ul class="pagination">
+            <li class="page-item bg-light "><a class="page-link text-reset" href="#novinky">Předchozí</a></li>
+            <li class="page-item"><a class="page-link text-warning" href="#novinky">1</a></li>
+            <li class="page-item"><a class="page-link text-warning" href="#novinky">2</a></li>
+            <li class="page-item"><a class="page-link text-warning" href="#novinky">3</a></li>
+            <li class="page-item"><a class="page-link text-warning" href="#novinky">Další</a></li>
+          </ul>
+        </nav>
+      </div>
+    </section>
+
+    <!-- UDÁLOSTI -->
+    <section id="udalosti" class="bg-white py-5">
+      <div class="container">
+        <h2 class="text-lg-start text-black mb-3">Nadcházející události</h2>
+        <div class="container border">
+
+          <div class="row align-items-center mb-3 mt-2">
+            <div class="col-2 col-md-1">
+              <div class="p-3 bg-white rounded border text-center">
+                <h4>12</h4>
+                <p>ŘÍJ</p>
+              </div>
+            </div>
+            <div class="col">
+              <h3>Workshop – Základy UX</h3>
+              <p>Ateliér A2, 14:00–17:00</p>
+            </div>
+            <div class="col-3 text-end"><span class="badge bg-orange ">Workshop</span></div>
+          </div>
+
+          <div class="row align-items-center mb-3">
+            <div class="col-2 col-md-1">
+              <div class="p-3 bg-white rounded border text-center">
+                <h4>27</h4>
+                <p>ŘÍJ</p>
+              </div>
+            </div>
+            <div class="col">
+              <h3>Přednáška – Kyberbezpečnost v praxi</h3>
+              <p>Aula, 10:00</p>
+            </div>
+            <div class="col-3 text-end"><span class="badge bg-warning text-black">Přednáška</span></div>
+          </div>
+
+          <div class="row align-items-center mb-2">
+            <div class="col-2 col-md-1">
+              <div class="p-3 bg-white rounded border text-center">
+                <h4>6</h4>
+                <p>LIS</p>
+              </div>
+            </div>
+            <div class="col">
+              <h3>Den otevřených dveří</h3>
+              <p>Celá škola, 9:00–16:00</p>
+            </div>
+            <div class="col-3 text-end"><span class="badge bg-success">Pro veřejnost</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALERIE -->
+    <section id="galerie" class="bg-light py-5">
+      <div class="container">
+        <div class="row align-items-stretch">
+          <div class="col-md-5 d-flex flex-column justify-content-center">
+            <h2>Galerie</h2>
+            <p>Ukázka použití komponenty Carousel. Obrázky mají nastavenou šířku (width) a výšku (height) tak, aby
+              obrázek mohl zabírat prostor ještě před jeho plným načtením, a tím se zmírnily posuny obsahu (Cumulative
+              layout shifts – CLS).</p>
+          </div>
+          <div class="col-md-7">
+            <img src="images/aula.webp" alt="" class="img-fluid rounded">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- DOTAZY -->
+    <section id="dotazy" class="bg-white py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-7">
+            <h2 class="mb-3">Časté dotazy</h2>
+            <div class="accordion" id="faqAccordion">
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingOne">
+                  <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseOne">Jak podat přihlášku?</button>
+                </h2>
+                <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Vyplňte online formulář, přiložte přílohy a sledujte e-mail pro pokyny.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingTwo">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseTwo">Přijímací řízení</button>
+                </h2>
+                <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Součástí je motivační rozhovor a ukázka prací.</div>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <h2 class="accordion-header" id="headingThree">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#collapseThree">Možnosti stipendií</button>
+                </h2>
+                <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                  <div class="accordion-body">Nabízíme prospěchová stipendia a podporu pro soutěže.</div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 d-flex flex-column justify-content-center">
+            <div class="p-5 bg-orange rounded border mt-4 text-white">
+              <h3>Přihlas se na SOŠ Digital</h3>
+              <p>Staň se součásí kreativní a technologické komunity. Přihlášky přijímáme online.</p>
+              <button class="btn btn-dark">Vyplnit přihlášku</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- KONTAKT -->
+    <section id="kontakt" class="bg-light py-5">
+      <div class="container">
+        <h2>Kontakt</h2>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="p-3 bg-white rounded border">
+              <h3>Napište nám</h3>
+              <div class="row">
+                <div class="col-md-6"><label class="form-label">Jméno</label><input type="text" class="form-control">
+                </div>
+                <div class="col-md-6"><label class="form-label">Email</label><input type="email" class="form-control">
+                </div>
+              </div>
+              <label class="form-label mt-2">Předmět</label><input type="text" class="form-control">
+              <label class="form-label mt-2">Zpráva</label><textarea rows="4" class="form-control"></textarea>
+              <div class="form-check mt-2">
+                <input class="form-check-input" type="checkbox" id="flexCheckDefault">
+                <label class="form-check-label" for="flexCheckDefault">Souhlasím se zpracováním osobních údajů</label>
+              </div>
+              <div class="d-flex mt-4">
+                <button class="btn btn-primary me-2">Odeslat</button>
+                <button class="btn btn-outline-secondary">Reset</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <h5 class="mb-3">Kde nás najdete</h5>
             <div class="row">
-              <div class="col-6 text-start"><span class="badge bg-success">Úspěch</span></div>
-              <div class="col-6 text-end text-decoration-underline"><a href="https://google.com">Číst více</a></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-4 mb-3">
-          <div class="p-3 bg-white rounded border h-100">
-            <img src="./hero-image.webp" class="img-fluid rounded mb-4" alt="">
-            <h3>Nové VR studio</h3>
-            <p>Rozšiřujeme multimediální výuku o virtuální realitu a 3D scanning.</p>
-            <div class="row mt-5">
-              <div class="col-6 text-start"><span class="badge bg-info text-black">Vybavení</span></div>
-              <div class="col-6 text-end text-decoration-underline"><a href="https://google.com">Číst více</a></div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <nav aria-label="Page navigation">
-        <ul class="pagination">
-          <li class="page-item bg-light "><a class="page-link text-reset" href="#novinky">Předchozí</a></li>
-          <li class="page-item"><a class="page-link text-warning" href="#novinky">1</a></li>
-          <li class="page-item"><a class="page-link text-warning" href="#novinky">2</a></li>
-          <li class="page-item"><a class="page-link text-warning" href="#novinky">3</a></li>
-          <li class="page-item"><a class="page-link text-warning" href="#novinky">Další</a></li>
-        </ul>
-      </nav>
-    </div>
-  </section>
-
-  <!-- UDÁLOSTI -->
-  <section id="udalosti" class="bg-white py-5">
-    <div class="container">
-      <h2 class="text-lg-start text-black mb-3">Nadcházející události</h2>
-      <div class="container border">
-
-      <div class="row align-items-center mb-3 mt-2">
-        <div class="col-2 col-md-1"><div class="p-3 bg-white rounded border text-center"><h4>12</h4><p>ŘÍJ</p></div></div>
-        <div class="col"><h3>Workshop – Základy UX</h3><p>Ateliér A2, 14:00–17:00</p></div>
-        <div class="col-3 text-end"><span class="badge bg-warning ">Workshop</span></div>
-      </div>
-
-      <div class="row align-items-center mb-3">
-        <div class="col-2 col-md-1"><div class="p-3 bg-white rounded border text-center"><h4>27</h4><p>ŘÍJ</p></div></div>
-        <div class="col"><h3>Přednáška – Kyberbezpečnost v praxi</h3><p>Aula, 10:00</p></div>
-        <div class="col-3 text-end"><span class="badge bg-warning text-black">Přednáška</span></div>
-      </div>
-
-      <div class="row align-items-center mb-2">
-        <div class="col-2 col-md-1"><div class="p-3 bg-white rounded border text-center"><h4>6</h4><p>LIS</p></div></div>
-        <div class="col"><h3>Den otevřených dveří</h3><p>Celá škola, 9:00–16:00</p></div>
-        <div class="col-3 text-end"><span class="badge bg-success">Pro veřejnost</span></div>
-      </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- GALERIE -->
-  <section id="galerie" class="bg-light py-5">
-    <div class="container">
-      <div class="row align-items-stretch">
-        <div class="col-md-5 d-flex flex-column justify-content-center">
-          <h2>Galerie</h2>
-          <p>Ukázka použití komponenty Carousel. Obrázky mají nastavenou šířku (width) a výšku (height) tak, aby obrázek mohl zabírat prostor ještě před jeho plným načtením, a tím se zmírnily posuny obsahu (Cumulative layout shifts – CLS).</p>
-        </div>
-        <div class="col-md-7">
-          <img src="images/aula.webp" alt="" class="img-fluid rounded">
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- DOTAZY -->
-  <section id="dotazy" class="bg-white py-5">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-7">
-          <h2 class="mb-3">Časté dotazy</h2>
-          <div class="accordion" id="faqAccordion">
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne">Jak podat přihlášku?</button>
-              </h2>
-              <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Vyplňte online formulář, přiložte přílohy a sledujte e-mail pro pokyny.</div>
+              <div class="col-md-6 mb-3">
+                <div class="p-3 bg-light rounded border">
+                  <h5>Adresa</h5>
+                  <p>U digitálu 12 <br> 460 01 Liberec</p>
+                </div>
               </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo">Přijímací řízení</button>
-              </h2>
-              <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Součástí je motivační rozhovor a ukázka prací.</div>
-              </div>
-            </div>
-            <div class="accordion-item">
-              <h2 class="accordion-header" id="headingThree">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree">Možnosti stipendií</button>
-              </h2>
-              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">Nabízíme prospěchová stipendia a podporu pro soutěže.</div>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 d-flex flex-column justify-content-center">
-          <div class="p-5 bg-warning rounded border mt-4 text-white">
-            <h3>Přihlaš se na SOŠ Digital</h3>
-            <p>Staň se součásí kreativní a technologické komunity. Přihlášky přijímáme online.</p>
-            <button class="btn btn-dark">Vyplnit přihlášku</button>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- KONTAKT -->
-  <section id="kontakt" class="bg-light py-5">
-    <div class="container">
-      <h2>Kontakt</h2>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="p-3 bg-white rounded border">
-            <h3>Napište nám</h3>
-            <div class="row">
-              <div class="col-md-6"><label class="form-label">Jméno</label><input type="text" class="form-control"></div>
-              <div class="col-md-6"><label class="form-label">Email</label><input type="email" class="form-control"></div>
-            </div>
-            <label class="form-label mt-2">Předmět</label><input type="text" class="form-control">
-            <label class="form-label mt-2">Zpráva</label><textarea rows="4" class="form-control"></textarea>
-            <div class="form-check mt-2">
-              <input class="form-check-input" type="checkbox" id="flexCheckDefault">
-              <label class="form-check-label" for="flexCheckDefault">Souhlasím se zpracováním osobních údajů</label>
-            </div>
-            <div class="d-flex mt-4">
-              <button class="btn btn-primary me-2">Odeslat</button>
-              <button class="btn btn-outline-secondary">Reset</button>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-6">
-          <h5 class="mb-3">Kde nás najdete</h5>
-          <div class="row">
-            <div class="col-md-6 mb-3">
-              <div class="p-3 bg-light rounded border">
-                <h5>Adresa</h5>
-                <p>U digitálu 12 <br> 460 01 Liberec</p>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="p-3 bg-light rounded border">
-                <h5>Kontakt</h5>
-                <p><a href="">+420 123 456 789</a><br><a href="">info@sosdigital.cz</a> </p>
+              <div class="col-md-6">
+                <div class="p-3 bg-light rounded border">
+                  <h5>Kontakt</h5>
+                  <p><a href="">+420 123 456 789</a><br><a href="">info@sosdigital.cz</a> </p>
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-  <!-- FOOTER -->
-  <footer class="bg-dark text-white py-4">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <h3>SOŠ Digital</h3>
-          <p class="text-secondary">Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jsme vaše jednička!</p>
-          <small class="text-secondary">&copy; SOŠ Digital</small>
-        </div>
-        <div class="col-md-3 ">
-          <h6>Navigace</h6>
-          <p><a href="#" class="text-reset">Domů</a><br><a href="#obory" class="text-reset">Obory</a><br><a href="#novinky" class="text-reset">Novinky</a><br><a href="#kontakt" class="text-reset">Kontakt</a></p>
-        </div>
-        <div class="col-md-3">
-          <h6>Informace</h6>
-          <p>Školní řád<br>GDPR<br>Pro rodiče</p>
-        </div>
-        <div class="col-md-3">
-          <h5>Odběr novinek</h5>
-          <input type="text" class="form-control mb-2" placeholder="Váš e-mail">
-          <button class="btn btn-primary w-100 mb-2">Odebírat</button>
-          <p>
-            <a href="https://instagram.com" class="text-secondary text-decoration-underline">Instagram</a>
-            <a href="https://youtube.com" class="text-secondary text-decoration-underline">YouTube</a>
-            <a href="https://facebook.com" class="text-secondary text-decoration-underline">Facebook</a>
-          </p>
+    <!-- FOOTER -->
+    <footer class="bg-dark text-white py-4">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <h3>SOŠ Digital</h3>
+            <p class="text-secondary">Moderní vzdělávání v IT, designu a digitálních médiích. Studujte u nás, jsme vaše
+              jednička!</p>
+            <small class="text-secondary">&copy; SOŠ Digital</small>
+          </div>
+          <div class="col-md-3 ">
+            <h6>Navigace</h6>
+            <p><a href="#" class="text-reset">Domů</a><br><a href="#obory" class="text-reset">Obory</a><br><a
+                href="#novinky" class="text-reset">Novinky</a><br><a href="#kontakt" class="text-reset">Kontakt</a></p>
+          </div>
+          <div class="col-md-3">
+            <h6>Informace</h6>
+            <p>Školní řád<br>GDPR<br>Pro rodiče</p>
+          </div>
+          <div class="col-md-3">
+            <h5>Odběr novinek</h5>
+            <input type="text" class="form-control mb-2" placeholder="Váš e-mail">
+            <button class="btn btn-primary w-100 mb-2">Odebírat</button>
+            <p>
+              <a href="https://instagram.com" class="text-secondary text-decoration-underline">Instagram</a>
+              <a href="https://youtube.com" class="text-secondary text-decoration-underline">YouTube</a>
+              <a href="https://facebook.com" class="text-secondary text-decoration-underline">Facebook</a>
+            </p>
+          </div>
         </div>
       </div>
-    </div>
-  </footer>
+    </footer>
 
   </div>
 
 </body>
+
 </html>
